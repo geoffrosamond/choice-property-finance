@@ -1,58 +1,50 @@
 # Choice Property Finance
 
-**Modern website redesign** for [choicepropertyfinance.com.au](https://choicepropertyfinance.com.au)
+Modern mortgage-broker website for **[choicepropertyfinance.com.au](https://choicepropertyfinance.com.au)**  
+Redesign of Beachwood Finance · Charlestown / Newcastle NSW
 
-Family-run mortgage brokerage · Charlestown / Newcastle NSW · Access 100+ lenders
-
-> Rebranded from Beachwood Finance (beachwoodfinance.com.au)
-
-## Live preview
-
-Open `index.html` in a browser, or:
+## Quick start
 
 ```bash
-npm start
+# Dev (source)
+npm run dev
 # → http://localhost:3000
+
+# Production build
+npm run build
+
+# Preview build
+npm run preview
+# → http://localhost:4173
 ```
 
-## Deploy (one click)
+## Deploy
 
-| Platform | How |
-|----------|-----|
-| **GitHub Pages** | Settings → Pages → Source: Deploy from branch `main` / root |
-| **Netlify** | [Deploy to Netlify](https://app.netlify.com/start) → import this repo |
-| **Vercel** | [vercel.com/new](https://vercel.com/new) → import this repo |
-| **Cloudflare Pages** | Connect repo → build command empty, output `.` |
-
-No build step. Static HTML + Tailwind CDN + local images.
+| Platform | Setup |
+|----------|--------|
+| **Netlify** | Import repo → build `bash scripts/build.sh` → publish `dist` |
+| **Vercel** | Import repo (vercel.json included) |
+| **GitHub Pages** | Settings → Pages → GitHub Actions (workflow included) |
+| **Any static host** | Upload contents of `dist/` after `npm run build` |
 
 ## Structure
 
 ```
-├── index.html       # Homepage
-├── contact.html     # Contact / enquiry
-├── assets/images/   # Logo, hero, team portraits
-├── package.json
-├── netlify.toml
-├── vercel.json
-└── README.md
+├── index.html / contact.html   # source pages
+├── assets/images/              # logo, hero, team
+├── scripts/build.sh            # production build
+├── dist/                       # build output (gitignored)
+├── netlify.toml / vercel.json
+└── .github/workflows/pages.yml
 ```
 
 ## Brand
 
-- **Navy** `#0A2540` · **Teal** `#0D9488` · Sand accents
-- Font: Plus Jakarta Sans
-- Phone: 0404 816 774
-- Entity: The Wood Bus Pty Ltd ATF The Wood Bus Trust (t/a Choice Property Finance) · ACL via BLSSA Pty Ltd 391237
+- Navy `#0A2540` · Teal `#0D9488`
+- Phone **0404 816 774**
+- Legal: The Wood Bus Pty Ltd ATF The Wood Bus Trust (t/a Choice Property Finance) · ACL via BLSSA 391237
 
-## Production checklist
+## Contact form
 
-- [ ] Register domain choicepropertyfinance.com.au
-- [ ] Point DNS to host
-- [ ] Wire contact form to Formspree / Getform / backend
-- [ ] Add Privacy Policy & Credit Guide PDFs
-- [ ] Replace demo team portraits with real photos if desired
-- [ ] Set up email aliases *@choicepropertyfinance.com.au
-
----
-Built for Geoff / Choice Property Finance redesign · 2026
+Wired to [FormSubmit](https://formsubmit.co) → `john@choicepropertyfinance.com.au`.  
+First submission requires email confirmation at that address.

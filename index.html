@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choice Property Finance | Your Local Mortgage Experts — Charlestown, Newcastle & Surrounds</title>
+  <meta name="description" content="Family-run mortgage brokerage with 20+ years experience. Access 100+ lenders for home loans, refinancing, investment & commercial finance. Servicing Charlestown, New Lambton, Wallsend and surrounding suburbs.">
+  <meta name="theme-color" content="#0A2540">
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { DEFAULT: '#0A2540', 50: '#F0F4F8', 100: '#D9E2EC', 800: '#102A43', 900: '#0A2540' },
+            teal: { DEFAULT: '#0D9488', 400: '#2DD4BF', 500: '#14B8A6', 600: '#0D9488', 700: '#0F766E' },
+            sand: '#F7F3EE',
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          },
+          boxShadow: {
+            soft: '0 10px 40px -10px rgba(10, 37, 64, 0.12)',
+            card: '0 4px 24px -4px rgba(10, 37, 64, 0.08)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .hero-gradient {
+      background: linear-gradient(135deg, rgba(10,37,64,0.85) 0%, rgba(13,148,136,0.55) 100%);
+    }
+    .glass { background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.12); }
+    .nav-blur { backdrop-filter: blur(16px); background: rgba(255,255,255,0.92); }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-up { animation: fadeUp 0.7s ease-out forwards; }
+    .delay-100 { animation-delay: 0.1s; }
+    .delay-200 { animation-delay: 0.2s; }
+    .delay-300 { animation-delay: 0.3s; }
+  </style>
+</head>
+<body class="font-sans text-navy-900 bg-white antialiased">
+  <!-- Top bar -->
+  <div class="bg-navy text-white text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex flex-wrap items-center justify-between gap-2">
+      <p class="flex items-center gap-2">
+        <svg class="w-4 h-4 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        Servicing Charlestown, New Lambton, Wallsend & surrounds
+      </p>
+      <a href="tel:0404816774" class="font-semibold hover:text-teal-400 transition flex items-center gap-1.5">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        0404 816 774
+      </a>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header id="header" class="sticky top-0 z-50 nav-blur border-b border-navy/5 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 lg:h-20">
+        <a href="index.html" class="flex items-center gap-3 group">
+          <img src="assets/images/logo.jpg" alt="Choice Property Finance" class="h-10 w-10 lg:h-12 lg:w-12 rounded-lg object-cover shadow-sm ring-1 ring-navy/10">
+          <div class="leading-tight">
+            <span class="block font-extrabold text-navy text-lg lg:text-xl tracking-tight group-hover:text-teal-600 transition">Choice</span>
+            <span class="block text-[11px] lg:text-xs font-semibold text-teal-600 tracking-wide uppercase">Property Finance</span>
+          </div>
+        </a>
+        <nav class="hidden lg:flex items-center gap-8">
+          <a href="#services" class="text-sm font-semibold text-navy/80 hover:text-teal-600 transition">Services</a>
+          <a href="#process" class="text-sm font-semibold text-navy/80 hover:text-teal-600 transition">How it works</a>
+          <a href="#team" class="text-sm font-semibold text-navy/80 hover:text-teal-600 transition">Our Team</a>
+          <a href="#about" class="text-sm font-semibold text-navy/80 hover:text-teal-600 transition">About</a>
+          <a href="contact.html" class="text-sm font-semibold text-navy/80 hover:text-teal-600 transition">Contact</a>
+        </nav>
+        <div class="flex items-center gap-3">
+          <a href="tel:0404816774" class="hidden sm:inline-flex items-center gap-2 text-sm font-bold text-navy hover:text-teal-600">
+            <span class="w-8 h-8 rounded-full bg-teal/10 flex items-center justify-center text-teal-600">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            </span>
+            Call now
+          </a>
+          <a href="contact.html" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-teal-600 text-white text-sm font-bold shadow-soft hover:bg-teal-700 transition transform hover:-translate-y-0.5">
+            Get started
+          </a>
+          <button id="menuBtn" class="lg:hidden p-2 rounded-lg text-navy hover:bg-navy/5" aria-label="Open menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="hidden lg:hidden border-t border-navy/5 bg-white">
+      <div class="px-4 py-4 space-y-1">
+        <a href="#services" class="block px-3 py-2.5 rounded-lg font-semibold text-navy hover:bg-teal/5">Services</a>
+        <a href="#process" class="block px-3 py-2.5 rounded-lg font-semibold text-navy hover:bg-teal/5">How it works</a>
+        <a href="#team" class="block px-3 py-2.5 rounded-lg font-semibold text-navy hover:bg-teal/5">Our Team</a>
+        <a href="#about" class="block px-3 py-2.5 rounded-lg font-semibold text-navy hover:bg-teal/5">About</a>
+        <a href="contact.html" class="block px-3 py-2.5 rounded-lg font-semibold text-navy hover:bg-teal/5">Contact</a>
+        <a href="tel:0404816774" class="block mt-2 px-3 py-3 rounded-xl bg-navy text-white text-center font-bold">Call 0404 816 774</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative min-h-[88vh] flex items-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="assets/images/hero.jpg" alt="Modern coastal family home" class="w-full h-full object-cover">
+      <div class="absolute inset-0 hero-gradient"></div>
+    </div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28 w-full">
+      <div class="max-w-2xl">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glass text-white/90 text-xs font-semibold tracking-wide uppercase mb-6 animate-fade-up">
+          <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span>
+          Family-run · 20+ years experience
+        </div>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] tracking-tight mb-6 animate-fade-up delay-100">
+          Your Property.<br>
+          <span class="text-teal-400">Your Choice.</span><br>
+          Our Expertise.
+        </h1>
+        <p class="text-lg sm:text-xl text-white/85 leading-relaxed mb-8 max-w-xl animate-fade-up delay-200">
+          Local mortgage experts helping first-home buyers, investors, self-employed and businesses secure the right finance — with access to 100+ lenders and personal guidance from start to settlement.
+        </p>
+        <div class="flex flex-wrap gap-4 animate-fade-up delay-300">
+          <a href="contact.html" class="inline-flex items-center justify-center px-7 py-3.5 rounded-full bg-white text-navy font-bold shadow-lg hover:bg-sand transition transform hover:-translate-y-0.5">
+            Book a free chat
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+          <a href="#services" class="inline-flex items-center justify-center px-7 py-3.5 rounded-full border-2 border-white/40 text-white font-bold hover:bg-white/10 transition">
+            Explore services
+          </a>
+        </div>
+        <div class="mt-12 flex flex-wrap gap-8 text-white/80 text-sm animate-fade-up delay-300">
+          <div class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-teal-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            No broker fees for most loans
+          </div>
+          <div class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-teal-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            100+ lenders compared
+          </div>
+          <div class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-teal-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            Local Newcastle experts
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust strip -->
+  <section class="bg-navy text-white py-10 border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div>
+          <p class="text-3xl lg:text-4xl font-extrabold text-teal-400">20+</p>
+          <p class="text-sm text-white/70 mt-1 font-medium">Years experience</p>
+        </div>
+        <div>
+          <p class="text-3xl lg:text-4xl font-extrabold text-teal-400">100+</p>
+          <p class="text-sm text-white/70 mt-1 font-medium">Lenders & products</p>
+        </div>
+        <div>
+          <p class="text-3xl lg:text-4xl font-extrabold text-teal-400">Family</p>
+          <p class="text-sm text-white/70 mt-1 font-medium">Run & trusted</p>
+        </div>
+        <div>
+          <p class="text-3xl lg:text-4xl font-extrabold text-teal-400">Local</p>
+          <p class="text-sm text-white/70 mt-1 font-medium">Hunter & surrounds</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 lg:py-28 bg-sand/50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <p class="text-teal-600 font-bold text-sm tracking-widest uppercase mb-3">What we do</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-navy tracking-tight">Finance solutions tailored to you</h2>
+        <p class="mt-4 text-navy/70 text-lg">Whether you’re buying your first home, refinancing, investing or growing a business — we find the right structure from a wide panel of lenders.</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <article class="group bg-white rounded-2xl p-7 shadow-card hover:shadow-soft transition border border-navy/5 hover:border-teal/20">
+          <div class="w-12 h-12 rounded-xl bg-teal/10 text-teal-600 flex items-center justify-center mb-5 group-hover:bg-teal-600 group-hover:text-white transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-navy mb-2">First Home Loans</h3>
+          <p class="text-navy/65 text-sm leading-relaxed mb-4">Navigate grants, schemes and deposit requirements with a clear path to your first keys.</p>
+          <a href="contact.html" class="text-sm font-bold text-teal-600 hover:text-teal-700 inline-flex items-center gap-1">Learn more <span>→</span></a>
+        </article>
+        <!-- Card 2 -->
+        <article class="group bg-white rounded-2xl p-7 shadow-card hover:shadow-soft transition border border-navy/5 hover:border-teal/20">
+          <div class="w-12 h-12 rounded-xl bg-teal/10 text-teal-600 flex items-center justify-center mb-5 group-hover:bg-teal-600 group-hover:text-white transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-navy mb-2">Refinancing</h3>
+          <p class="text-navy/65 text-sm leading-relaxed mb-4">Lower your rate, free up equity or restructure for better cashflow — we’ll compare the market for you.</p>
+          <a href="contact.html" class="text-sm font-bold text-teal-600 hover:text-teal-700 inline-flex items-center gap-1">Learn more <span>→</span></a>
+        </article>
+        <!-- Card 3 -->
+        <article class="group bg-white rounded-2xl p-7 shadow-card hover:shadow-soft transition border border-navy/5 hover:border-teal/20">
+          <div class="w-12 h-12 rounded-xl bg-teal/10 text-teal-600 flex items-center justify-center mb-5 group-hover:bg-teal-600 group-hover:text-white transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-navy mb-2">Investment Loans</h3>
+          <p class="text-navy/65 text-sm leading-relaxed mb-4">Build your portfolio with structures that support cashflow, tax efficiency and long-term growth.</p>
+          <a href="contact.html" class="text-sm font-bold text-teal-600 hover:text-teal-700 inline-flex items-center gap-1">Learn more <span>→</span></a>
+        </article>
+        <!-- Card 4 -->
+        <article class="group bg-white rounded-2xl p-7 shadow-card hover:shadow-soft transition border border-navy/5 hover:border-teal/20">
+          <div class="w-12 h-12 rounded-xl bg-teal/10 text-teal-600 flex items-center justify-center mb-5 group-hover:bg-teal-600 group-hover:text-white transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-navy mb-2">Self-Employed Finance</h3>
+          <p class="text-navy/65 text-sm leading-relaxed mb-4">We understand complex income. Specialist lenders and packaging that works for business owners.</p>
+          <a href="contact.html" class="text-sm font-bold text-teal-600 hover:text-teal-700 inline-flex items-center gap-1">Learn more <span>→</span></a>
+        </article>
+        <!-- Card 5 -->
+        <article class="group bg-white rounded-2xl p-7 shadow-card hover:shadow-soft transition border border-navy/5 hover:border-teal/20">
+          <div class="w-12 h-12 rounded-xl bg-teal/10 text-teal-600 flex items-center justify-center mb-5 group-hover:bg-teal-600 group-hover:text-white transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-navy mb-2">Commercial Loans</h3>
+          <p class="text-navy/65 text-sm leading-relaxed mb-4">Property, equipment and business growth funding with commercial specialists who get your goals.</p>
+          <a href="contact.html" class="text-sm font-bold text-teal-600 hover:text-teal-700 inline-flex items-center gap-1">Learn more <span>→</span></a>
+        </article>
+        <!-- Card 6 -->
+        <article class="group bg-white rounded-2xl p-7 shadow-card hover:shadow-soft transition border border-navy/5 hover:border-teal/20">
+          <div class="w-12 h-12 rounded-xl bg-teal/10 text-teal-600 flex items-center justify-center mb-5 group-hover:bg-teal-600 group-hover:text-white transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2v16z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-navy mb-2">Construction & More</h3>
+          <p class="text-navy/65 text-sm leading-relaxed mb-4">Land & build packages, car finance, personal loans and specialist products — one team, full spectrum.</p>
+          <a href="contact.html" class="text-sm font-bold text-teal-600 hover:text-teal-700 inline-flex items-center gap-1">Learn more <span>→</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="py-20 lg:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <p class="text-teal-600 font-bold text-sm tracking-widest uppercase mb-3">Simple process</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-navy tracking-tight">What we’ll do for you</h2>
+        <p class="mt-4 text-navy/70 text-lg">From understanding your goals to settlement and beyond — clear steps, personal support.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8 lg:gap-12 relative">
+        <div class="hidden md:block absolute top-16 left-[16%] right-[16%] h-0.5 bg-gradient-to-r from-teal-200 via-teal-400 to-teal-200"></div>
+        <div class="relative text-center">
+          <div class="w-14 h-14 mx-auto rounded-full bg-navy text-white flex items-center justify-center text-xl font-extrabold shadow-soft mb-5 relative z-10 ring-4 ring-white">1</div>
+          <h3 class="text-lg font-bold text-navy mb-2">Understand your goals</h3>
+          <p class="text-navy/65 text-sm leading-relaxed">We take the time to understand your unique situation, timeline and what success looks like for you.</p>
+        </div>
+        <div class="relative text-center">
+          <div class="w-14 h-14 mx-auto rounded-full bg-navy text-white flex items-center justify-center text-xl font-extrabold shadow-soft mb-5 relative z-10 ring-4 ring-white">2</div>
+          <h3 class="text-lg font-bold text-navy mb-2">Provide clear options</h3>
+          <p class="text-navy/65 text-sm leading-relaxed">Thorough research across 100+ lenders. A shortlist of suitable loans with plain-English comparison.</p>
+        </div>
+        <div class="relative text-center">
+          <div class="w-14 h-14 mx-auto rounded-full bg-navy text-white flex items-center justify-center text-xl font-extrabold shadow-soft mb-5 relative z-10 ring-4 ring-white">3</div>
+          <h3 class="text-lg font-bold text-navy mb-2">Get it sorted</h3>
+          <p class="text-navy/65 text-sm leading-relaxed">We handle lodging, follow-up, approval and settlement so you can focus on your next chapter.</p>
+        </div>
+      </div>
+      <div class="mt-14 text-center">
+        <a href="contact.html" class="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-teal-600 text-white font-bold shadow-soft hover:bg-teal-700 transition">Start the conversation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="py-20 lg:py-28 bg-navy text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <p class="text-teal-400 font-bold text-sm tracking-widest uppercase mb-3">Meet the team</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Your local mortgage experts</h2>
+        <p class="mt-4 text-white/70 text-lg">John, Teah and Jo-Mari are ready to help you achieve your financial goals.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- John -->
+        <div class="bg-white/5 rounded-2xl overflow-hidden border border-white/10 hover:border-teal-400/40 transition group">
+          <div class="aspect-square overflow-hidden">
+            <img src="assets/images/john.jpg" alt="John Wood" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold">John Wood</h3>
+            <p class="text-teal-400 text-sm font-semibold mt-1">Director · MBA, MFAA, BLSAA</p>
+            <p class="text-white/65 text-sm mt-3 leading-relaxed">Over 20 years in finance and mortgages. Principal broker helping families and businesses across the Hunter with clear, no-jargon advice.</p>
+            <div class="mt-4 space-y-1 text-sm">
+              <a href="tel:0404816774" class="block text-white/90 hover:text-teal-400">0404 816 774</a>
+              <a href="mailto:john@choicepropertyfinance.com.au" class="block text-white/90 hover:text-teal-400">john@choicepropertyfinance.com.au</a>
+            </div>
+          </div>
+        </div>
+        <!-- Teah -->
+        <div class="bg-white/5 rounded-2xl overflow-hidden border border-white/10 hover:border-teal-400/40 transition group">
+          <div class="aspect-square overflow-hidden">
+            <img src="assets/images/teah.jpg" alt="Teah Wood" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold">Teah Wood</h3>
+            <p class="text-teal-400 text-sm font-semibold mt-1">Customer Care · Diploma of Finance</p>
+            <p class="text-white/65 text-sm mt-3 leading-relaxed">Driving force behind client experience and operations. Warm, structured support that keeps every application on track.</p>
+            <div class="mt-4 space-y-1 text-sm">
+              <a href="tel:0401225632" class="block text-white/90 hover:text-teal-400">0401 225 632</a>
+              <a href="mailto:teah@choicepropertyfinance.com.au" class="block text-white/90 hover:text-teal-400">teah@choicepropertyfinance.com.au</a>
+            </div>
+          </div>
+        </div>
+        <!-- Jo-Mari -->
+        <div class="bg-white/5 rounded-2xl overflow-hidden border border-white/10 hover:border-teal-400/40 transition group">
+          <div class="aspect-square overflow-hidden">
+            <img src="assets/images/jomari.jpg" alt="Jo-Mari Lowe" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold">Jo-Mari Lowe</h3>
+            <p class="text-teal-400 text-sm font-semibold mt-1">Customer Care · BCom (Hons)</p>
+            <p class="text-white/65 text-sm mt-3 leading-relaxed">Strategic insight and marketing-honours background delivering clear, confident support throughout the lending process.</p>
+            <div class="mt-4 space-y-1 text-sm">
+              <a href="tel:0422698985" class="block text-white/90 hover:text-teal-400">0422 698 985</a>
+              <a href="mailto:jo-mari@choicepropertyfinance.com.au" class="block text-white/90 hover:text-teal-400">jo-mari@choicepropertyfinance.com.au</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 lg:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div>
+          <p class="text-teal-600 font-bold text-sm tracking-widest uppercase mb-3">About us</p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-navy tracking-tight mb-6">Who we are</h2>
+          <p class="text-navy/75 text-lg leading-relaxed mb-4">
+            With a legacy spanning two decades, <strong class="text-navy">Choice Property Finance</strong> is a family-run mortgage brokerage that embodies trust, expertise and personalised financial solutions.
+          </p>
+          <p class="text-navy/75 leading-relaxed mb-4">
+            Since our establishment we have been dedicated to helping individuals and businesses achieve homeownership, growth and investment success. We specialise in self-employed professionals, first-home buyers, and commercial ventures seeking expansion finance.
+          </p>
+          <p class="text-navy/75 leading-relaxed mb-6">
+            We don’t just secure mortgages — we build bridges to brighter financial futures. Locally based and proudly serving Charlestown, New Lambton, Wallsend and the wider Hunter region.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <div class="px-4 py-2 rounded-full bg-teal/10 text-teal-700 text-sm font-bold">MFAA member</div>
+            <div class="px-4 py-2 rounded-full bg-teal/10 text-teal-700 text-sm font-bold">100+ lenders</div>
+            <div class="px-4 py-2 rounded-full bg-teal/10 text-teal-700 text-sm font-bold">#BrokersWorkForYou</div>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="rounded-3xl overflow-hidden shadow-soft aspect-[4/3]">
+            <img src="assets/images/hero.jpg" alt="Coastal home" class="w-full h-full object-cover">
+          </div>
+          <div class="absolute -bottom-6 -left-6 bg-navy text-white rounded-2xl p-6 shadow-soft max-w-xs hidden sm:block">
+            <p class="text-3xl font-extrabold text-teal-400">20+</p>
+            <p class="text-sm text-white/80 mt-1">Years helping Hunter families & businesses secure the right finance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-20 lg:py-28 bg-sand/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <p class="text-teal-600 font-bold text-sm tracking-widest uppercase mb-3">Client stories</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-navy tracking-tight">Trusted by local families</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <blockquote class="bg-white rounded-2xl p-7 shadow-card border border-navy/5">
+          <div class="flex gap-1 text-teal-500 mb-4">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="text-navy/80 text-sm leading-relaxed mb-4">“John and the team went above and beyond. Quick updates, clear solutions, and we felt looked after from start to finish. Highly recommend.”</p>
+          <footer class="text-sm font-bold text-navy">— Local first-home buyer</footer>
+        </blockquote>
+        <blockquote class="bg-white rounded-2xl p-7 shadow-card border border-navy/5">
+          <div class="flex gap-1 text-teal-500 mb-4">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="text-navy/80 text-sm leading-relaxed mb-4">“We faced a few hurdles but the team always had a solution. Simple on our end and we felt very well taken care of.”</p>
+          <footer class="text-sm font-bold text-navy">— Refinance client</footer>
+        </blockquote>
+        <blockquote class="bg-white rounded-2xl p-7 shadow-card border border-navy/5">
+          <div class="flex gap-1 text-teal-500 mb-4">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="text-navy/80 text-sm leading-relaxed mb-4">“I’ve been with John for nearly 20 years. Personalised solutions and service that is second to none. Truly local experts.”</p>
+          <footer class="text-sm font-bold text-navy">— Long-term client</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 lg:py-24 bg-gradient-to-br from-navy via-navy-800 to-teal-700 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4">Ready to make your move?</h2>
+      <p class="text-white/80 text-lg mb-8 max-w-2xl mx-auto">Whether you’re buying, refinancing or investing — a free, no-obligation chat is the best first step. We’re local, experienced and on your side.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="contact.html" class="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-white text-navy font-bold shadow-lg hover:bg-sand transition">Get in touch</a>
+        <a href="tel:0404816774" class="inline-flex items-center justify-center px-8 py-3.5 rounded-full border-2 border-white/50 text-white font-bold hover:bg-white/10 transition">Call 0404 816 774</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-navy-900 text-white/80 pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <div class="lg:col-span-1">
+          <a href="index.html" class="flex items-center gap-3 mb-4">
+            <img src="assets/images/logo.jpg" alt="Choice Property Finance" class="h-10 w-10 rounded-lg object-cover">
+            <div>
+              <span class="block font-extrabold text-white text-lg">Choice</span>
+              <span class="block text-[10px] font-semibold text-teal-400 tracking-wide uppercase">Property Finance</span>
+            </div>
+          </a>
+          <p class="text-sm leading-relaxed text-white/60">Your local mortgage experts. Family-run, client-first, access to 100+ lenders.</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-white mb-4">Services</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#services" class="hover:text-teal-400 transition">First Home Loans</a></li>
+            <li><a href="#services" class="hover:text-teal-400 transition">Refinancing</a></li>
+            <li><a href="#services" class="hover:text-teal-400 transition">Investment Loans</a></li>
+            <li><a href="#services" class="hover:text-teal-400 transition">Self-Employed & Commercial</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-white mb-4">Company</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#team" class="hover:text-teal-400 transition">Our Team</a></li>
+            <li><a href="#about" class="hover:text-teal-400 transition">About</a></li>
+            <li><a href="contact.html" class="hover:text-teal-400 transition">Contact</a></li>
+            <li><a href="#" class="hover:text-teal-400 transition">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-white mb-4">Get in touch</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="tel:0404816774" class="hover:text-teal-400 transition">0404 816 774</a></li>
+            <li><a href="mailto:john@choicepropertyfinance.com.au" class="hover:text-teal-400 transition">john@choicepropertyfinance.com.au</a></li>
+            <li class="text-white/60">Charlestown, NSW & surrounds</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-8 text-xs text-white/50 space-y-3">
+        <p>The Wood Bus Pty Ltd ATF The Wood Bus Trust (t/a Choice Property Finance) ACN 150969378 is authorised under BLSSA Pty Ltd Australian Credit Licence 391237.</p>
+        <p>The information on this site is for illustrative and discussion purposes only. Terms, conditions, fees and charges may apply. Normal lending criteria apply. Rates subject to change. Approved applicants only. Not all lenders are available to all brokers.</p>
+        <p class="pt-2">© 2026 Choice Property Finance · choicepropertyfinance.com.au · All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn?.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    // Close mobile menu on link click
+    mobileMenu?.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    });
+  </script>
+</body>
+</html>

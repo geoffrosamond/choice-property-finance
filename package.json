@@ -1,0 +1,14 @@
+{
+  "name": "choice-property-finance",
+  "version": "1.0.0",
+  "description": "Choice Property Finance — modern mortgage broker website (redesign of Beachwood Finance)",
+  "private": true,
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx serve . -p 3000",
+    "build": "echo 'Static site — no build step required. Open index.html or run npm start.'"
+  },
+  "keywords": ["mortgage", "broker", "finance", "australia", "newcastle"],
+  "author": "Choice Property Finance",
+  "license": "UNLICENSED"
+}

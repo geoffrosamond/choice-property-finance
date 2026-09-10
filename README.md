@@ -1,7 +1,7 @@
 # Choice Property Finance
 
 Modern mortgage-broker website for **[choicepropertyfinance.com.au](https://choicepropertyfinance.com.au)**  
-Redesign of Beachwood Finance · Charlestown / Newcastle NSW
+Family-run brokerage servicing the **Northern Beaches, NSW**.
 
 ## Quick start
 
@@ -31,7 +31,7 @@ npm run preview
 
 ```
 ├── index.html / contact.html   # source pages
-├── assets/images/              # logo, hero, team
+├── assets/images/              # logo, hero, team (incl. Patrick)
 ├── scripts/build.sh            # production build
 ├── dist/                       # build output (gitignored)
 ├── netlify.toml / vercel.json
@@ -41,10 +41,18 @@ npm run preview
 ## Brand
 
 - Navy `#0A2540` · Teal `#0D9488`
-- Phone **0404 816 774**
+- Phone **0405 457 950** (Patrick, Director)
+- Service area: Northern Beaches, NSW
 - Legal: The Wood Bus Pty Ltd ATF The Wood Bus Trust (t/a Choice Property Finance) · ACL via BLSSA 391237
+
+## Team
+
+- **Patrick** — Director · 0405 457 950
+- **John Wood** — Principal Broker · 0404 816 774
+- **Teah Wood** — Customer Care · 0401 225 632
+- **Jo-Mari Lowe** — Customer Care · 0422 698 985
 
 ## Contact form
 
-Wired to [FormSubmit](https://formsubmit.co) → `john@choicepropertyfinance.com.au`.  
+Wired to [FormSubmit](https://formsubmit.co) → `Patrick@choicepropertyfinance.com.au`.  
 First submission requires email confirmation at that address.

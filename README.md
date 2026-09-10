@@ -48,9 +48,6 @@ npm run preview
 ## Team
 
 - **Patrick** — Director · 0405 457 950
-- **John Wood** — Principal Broker · 0404 816 774
-- **Teah Wood** — Customer Care · 0401 225 632
-- **Jo-Mari Lowe** — Customer Care · 0422 698 985
 
 ## Contact form
 
